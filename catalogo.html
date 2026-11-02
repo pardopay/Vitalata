@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Catálogo de productos - Vitalata</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor barra-navegacion">
+
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Logo de Vitalata" class="logo-marca">
+                <div class="logo-texto">
+                    <strong>Vitalata</strong>
+                    <div class="logo-slogan">Conservas de calidad</div>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="menu-principal">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html" class="activo">Catálogo</a></li>
+                    <li><a class="inactivo">Categorías</a></li>
+                    <li><a class="inactivo">Ofertas</a></li>
+                    <input type="text" placeholder="⌕">
+                </ul>
+            </nav>
+
+            <button class="boton-carrito" aria-label="Ver carrito de compras">
+                <img src="img/carrito.png" alt="" class="carrito-icono">
+                <span>Carrito</span>
+                <span class="carrito-contador">0</span>
+            </button>
+
+        </div>
+    </header>
+
+    <main class="contenedor">
+
+        <p class="migas-pan"><a href="index.html">Inicio</a> / Catálogo</p>
+
+        <section class="encabezado-pagina">
+            <h1 class="titulo-seccion">Catálogo de productos</h1>
+            <p>Todas nuestras conservas, en un solo lugar.</p>
+        </section>
+
+        <div class="barra-filtros">
+            <button class="filtro">Categoría</button>
+            <button class="filtro">Precio</button>
+            <div class="contador-resultados">67 productos</div>
+        </div>
+
+        <section class="rejilla-productos">
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-atun-agua.jpg" alt="Lata de atún en agua Vitalata de 140 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Atún y pescado</div>
+                    <h3 class="producto-nombre">Atún en agua</h3>
+                    <div class="producto-presentacion">Lata 140 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$22.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-frijoles-refritos.jpg" alt="Lata de frijoles refritos Vitalata de 430 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Verduras</div>
+                    <h3 class="producto-nombre">Frijoles refritos</h3>
+                    <div class="producto-presentacion">Lata 430 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$28.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <div class="etiqueta-producto">Oferta</div>
+                    <img src="img/producto-elote-dulce.jpg" alt="Lata de elote dulce en grano Vitalata de 220 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Verduras</div>
+                    <h3 class="producto-nombre">Elote dulce en grano</h3>
+                    <div class="producto-presentacion">Lata 220 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="precio-grupo">
+                            <div class="precio-anterior">$23.00</div>
+                            <div class="producto-precio">$19.00</div>
+                        </div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-duraznos-almibar.jpg" alt="Lata de duraznos en almíbar Vitalata de 820 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Frutas y postres</div>
+                    <h3 class="producto-nombre">Duraznos en almíbar</h3>
+                    <div class="producto-presentacion">Lata 820 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$35.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-chiles-rajas.jpg" alt="Lata de chiles en rajas Vitalata de 220 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Verduras</div>
+                    <h3 class="producto-nombre">Chiles en rajas</h3>
+                    <div class="producto-presentacion">Lata 220 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$17.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <div class="etiqueta-producto">Nuevo</div>
+                    <img src="img/producto-crema-champinon.jpg" alt="Lata de crema de champiñón Vitalata de 300 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Sopas y cremas</div>
+                    <h3 class="producto-nombre">Crema de champiñón</h3>
+                    <div class="producto-presentacion">Lata 300 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$24.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-verduras-variadas.jpg" alt="Lata de verduras variadas Vitalata de 400 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Verduras</div>
+                    <h3 class="producto-nombre">Verduras variadas</h3>
+                    <div class="producto-presentacion">Lata 400 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$21.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="img/producto-salsa-tomate.jpg" alt="Lata de salsa de tomate Vitalata de 400 gramos">
+                </div>
+                <div class="producto-info">
+                    <div class="producto-categoria">Sopas y cremas</div>
+                    <h3 class="producto-nombre">Salsa de tomate</h3>
+                    <div class="producto-presentacion">Lata 400 g</div>
+                    <div class="producto-precio-fila">
+                        <div class="producto-precio">$18.00</div>
+                        <button class="boton-agregar">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="rejilla-pie">
+
+                <div class="columna-pie columna-marca">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.png" alt="Logo de Vitalata" class="logo-marca">
+                        <strong>Vitalata</strong>
+                    </a>
+                    <p>Conservas de calidad para tu despensa, a un clic de distancia.</p>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>hola@vitalata.com</li>
+                        <li>55 1234 5678</li>
+                    </ul>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a class="inactivo">Categorías</a></li>
+                        <li><a class="inactivo">Ofertas</a></li>
+                    </ul>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Redes</h4>
+                    <ul>
+                        <li><a class="inactivo">Facebook</a></li>
+                        <li><a class="inactivo">Instagram</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <p class="pie-inferior">&copy; 2026 Vitalata. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
